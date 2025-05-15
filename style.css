@@ -1,8 +1,24 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');     
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
     box-sizing: border-box;
     margin: 0;
+   
     padding: 0;
 }
+
+.main-background {
+    /* background-image: url(./pic/lor-kv-kv-batch-6-6-final-2.jpg); */
+    background-position: center;
+    /* background-size: cover;
+    object-fit: cover; */
+    padding-left: 0px;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
 
 .navbar {
     display: flex;
@@ -98,26 +114,21 @@ li {
 
 }
 
-.search-containe {
-    width: 80px;
+.search-container {
+width: 210px;
     display: flex;
     padding: 22px;
 }
 
-body {
-    background-image: url(./pic/lor-kv-kv-batch-6-6-final-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+main {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.hero {
-    padding-left: 40px;
-    display: block;
-    justify-content: center;
-    align-items: center;
+.hero{
     text-align: center;
-    margin-right: 600px;
+    margin-right: 808px;
 }
 
 .p1-text{
@@ -130,3 +141,17 @@ body {
 .p1-text {
     color: white;
 }
+
+.bottle-p1{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.bottle-p1 span {
+    
+}
+
+
