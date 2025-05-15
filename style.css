@@ -18,7 +18,7 @@
 
 .riotbar-fist-logo {
     align-items: center;
-    fill: white ;
+    fill: white;
 }
 
 .logo-switcher {
@@ -33,7 +33,7 @@
 .left-content {
     display: flex;
     padding-left: 36px;
-
+    justify-content: flex-start;
 }
 
 .center-content {
@@ -42,6 +42,7 @@
     padding: 22px;
     padding-left: 0px;
     padding-right: 0px;
+    justify-content: flex-start;
 }
 
 .list {
@@ -79,36 +80,53 @@ li {
 
 
 .right-contant {
-    padding-right: 32px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 70px;
+    align-items: center;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
 }
-.button-toggleLocaleMenu{
-    width: 30px;
+
+.button-toggleLocaleMenu svg {
+    width: 40px;
     margin-right: 15px;
-    font-size: 14px;
+    fill: white !important;
+
 }
 
-.search-containe{
+.search-containe {
     width: 80px;
     display: flex;
     padding: 22px;
 }
 
-body{
-    background-image:url(./pic/lor-kv-kv-batch-6-6-final-2.webp);
+body {
+    background-image: url(./pic/lor-kv-kv-batch-6-6-final-2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.hero{
+.hero {
     padding-left: 40px;
-    padding-right: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 600px;
 }
 
 .p1-text{
-    color: white;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.p1-sup{
+    color: gray;
 }
 
+.p1-text {
+    color: white;
+}
